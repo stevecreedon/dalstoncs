@@ -1,0 +1,21 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+article#delicate-flavours{
+  div.tk-mittwoch{
+    font-size: 2.4em;
+  }
+
+  div.call-to-action{
+
+    font-size: 1.8em;
+
+    div{  
+      border-top: 1px solid #888;
+      padding-top: 10px;
+      margin-top: 10px;
+    }
+
+  }
+}

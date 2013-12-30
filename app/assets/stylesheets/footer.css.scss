@@ -1,0 +1,24 @@
+@import 'colours';
+
+html, body{
+  height: 100%;
+}
+
+div#wrap{
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -200px;
+  padding: 0 0 200px;
+}
+
+footer{
+  height: 200px;
+  background-color: $darkbg;
+
+  h1{
+    color: white;
+  } 
+
+  border-top: 5px white solid;
+
+}

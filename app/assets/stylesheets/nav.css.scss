@@ -1,0 +1,39 @@
+@import 'colours';
+
+nav.navbar{
+  margin: 0;
+  background-color: $darkbg;
+  border: none;
+  border-radius: 0;
+
+  a.navbar-brand{
+    padding: 0;
+    margin: 2px 0px 0px 10px;
+  }
+
+  div.navbar-collapse{
+    ul.nav > li{
+      font-size: 1.4em;
+      a:link {color:#E1CB7E;}      /* unvisited link */
+      a:visited {color:#E1CB7E;}  /* visited link */
+      a:hover {color:#fff;}  /* mouse over link */
+      a:active {color:#E1CB7E;}  /* selected link */
+
+      a.dropdown-toggle{background: none;}
+
+      ul.dropdown-menu{
+        background: $darkbg;
+
+        li{
+          font-size: 1.4em;
+          a:hover {background: none;}
+        }
+
+      }
+
+    }
+  }
+
+ 
+
+}

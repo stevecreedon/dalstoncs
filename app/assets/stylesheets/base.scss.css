@@ -1,0 +1,60 @@
+
+body{
+
+  background-image: url("wallpaper.jpg");
+
+  font-family: "pragmatica-web-condensed", Arial, sans-serif;
+
+  a:link {color:#E1CB7E;}      /* unvisited link */
+  a:visited {color:#E1CB7E;}  /* visited link */
+  a:hover {color:#fff;}  /* mouse over link */
+  a:active {color:#E1CB7E;}  /* selected link */
+
+  color: white;
+
+}
+
+.glow{
+  text-shadow: 0 0 10px #E1CB7E;
+  color:#E1CB7E;
+}
+
+span.gold{
+    color: white;
+    text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
+}
+
+span.chilli{
+    color: white;
+    text-shadow: 3px 3px 8px #eF0000, -3px -3px 8px #eF0000;
+}
+
+
+h3{
+  font-size: 2.4em;
+  font-family: "pragmatica-web-condensed", Arial, sans-serif;
+}
+
+.black{
+  background-color: black;
+  padding-top: 40px;
+}
+
+.rounded{
+  -webkit-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border-radius: 10px;
+}
+
+.bottom-edge{
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-bottomright: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 20px;
+}
