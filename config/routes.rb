@@ -18,6 +18,8 @@ Dalston::Application.routes.draw do
   match 'delicate-flavours' => 'welcome#flavours.html.erb', as: 'delicate_flavours'
   match 'dalston-artist' => 'welcome#artist.html.erb', as: 'dalston_artist'
 
+  match 'about-us' => 'pages#about-us', as: 'about_us'
+
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 
