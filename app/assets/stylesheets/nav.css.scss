@@ -20,11 +20,13 @@ nav.navbar{
       a:hover {color:#fff;}  /* mouse over link */
       a:active {color:#E1CB7E;}  /* selected link */
 
+      position: relative;
+      z-index: 1;
+
       a.dropdown-toggle{background: none;}
 
       ul.dropdown-menu{
         background: $darkbg;
-        z-index: 10001;
 
         li{
           font-size: 1.4em;
