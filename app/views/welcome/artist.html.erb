@@ -1,0 +1,19 @@
+<article id="artist" class="container black rounded" style="margin-bottom: 40px; padding: 20px;">
+  <div class="row">
+     <div class="col-md-6 text-center">
+       <%= image_tag 'artist.jpg', class: "img-responsive" %>
+     </div>
+     <div class="col-md-6">
+      <p>Keiko has lived and worked in Dalston for over 30 years creating fine art ceramics from her studio in the <%= link_to 'old chocolate factory', "http://www.chocolatefactoryn16.com" %>.</p>
+      <p>Now she makes exquisite chocolate blended with naturally dried herbs and spices grown locally.</p> 
+     </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 call-to-action">
+      <div class=" tk-pragmatica-web-condensed">
+         <span style="font-size: 1.2em;">Art, Chocolate &amp; Spices</span><br/>
+         We grow and dry our own herbs and spices for:<br/><%= link_to 'E8 Chocolate', e8_chocolate_path %>, <%= link_to 'Dalston Tea Time', dalston_tea_time_path %> and <%= link_to 'Hot, Hot Hot Chocolate', hot_chocolate_path %>
+       </div>
+    </div>
+  </div>
+</article>
